@@ -4,6 +4,7 @@
  */
 package civitas;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class MazoSorpresas {
     private ArrayList<Sorpresa> Sorpresa;
@@ -46,6 +47,7 @@ public class MazoSorpresas {
     Sorpresa siguiente(){
         if(!barajada || usadas == Sorpresa.size()){
             if(!debug){
+                Collections.shuffle(Sorpresa);
                 usadas=0;
                 barajada=true;
             }
