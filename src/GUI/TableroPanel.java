@@ -240,6 +240,7 @@ class TableroPanel extends JPanel {
             Color icono; String simbolo;
             if (lower.contains("salida"))      { icono = Tema.VERDE; simbolo = "➜"; }
             else if (lower.contains("parking")) { icono = Tema.AZUL;  simbolo = "P"; }
+            else if (lower.contains("descanso")) { icono = new Color(0x9B5DE5); simbolo = "z"; }
             else                               { icono = Tema.ORO;   simbolo = "?"; }
             double d = c * 0.36;
             g.setColor(icono);

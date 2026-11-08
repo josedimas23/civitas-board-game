@@ -158,7 +158,7 @@ public class CivitasJuego {
     
      private void inicializaTablero(MazoSorpresas mazo){
         
-        tablero.añadeCasilla(new Casilla(" Salida "));
+        tablero.añadeCasilla(new Casilla(" Descanso "));
         tablero.añadeCasilla(new CasillaCalle( " albacete ", 60, 20, 50));
         tablero.añadeCasilla(new CasillaCalle( " murcia ", 80, 30, 100));
         tablero.añadeCasilla(new CasillaCalle(" almeria ", 100, 40, 200));

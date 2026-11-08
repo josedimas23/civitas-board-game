@@ -7,8 +7,6 @@ import java.util.ArrayList;
  */
 public class SorpresaPagarCobrar extends Sorpresa{
     
-    private int valor;
-    
     SorpresaPagarCobrar(String Tex,int Valor){
         super(Tex,Valor);
        
@@ -19,7 +17,7 @@ public class SorpresaPagarCobrar extends Sorpresa{
     public void aplicarAJugador(int actual, ArrayList<Jugador> todos){
         
         informe(actual, todos);
-        todos.get(actual).modificarSaldo(valor);
+        todos.get(actual).modificarSaldo(getValor());
     
     }
 }
