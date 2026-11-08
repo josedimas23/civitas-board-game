@@ -96,7 +96,7 @@ run.sh                    # One-command build & run
 
 ## Context & credits
 
-This was a pair project for the **Programación y Diseño Orientado a Objetos** (Object-Oriented Programming and Design) course at the **University of Granada** (2022), written by **Jose Dimas Sánchez Casas** and **Álvaro R.**. We implemented the game model, the controller and the original Swing and text views together.
+This was a pair project for the **Programación y Diseño Orientado a Objetos** (Object-Oriented Programming and Design) course at the **University of Granada** (2022), written by **Jose Dimas Sánchez Casas** and **Álvaro R.** We implemented the game model, the controller and the original Swing and text views together.
 
 In 2026 I revisited the project for my portfolio, which involved these changes:
 - I replaced the original NetBeans-form GUI with the animated, custom-painted board.
