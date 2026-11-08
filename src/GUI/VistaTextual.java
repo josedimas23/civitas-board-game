@@ -88,7 +88,7 @@ public class VistaTextual implements Vista {
 
 
     public Respuesta comprar(){
-        ArrayList<String> lista = new ArrayList(2);
+        ArrayList<String> lista = new ArrayList<>(2);
         lista.add("SI");
         lista.add("NO");
         int opcion = menu(" ¿Desea comprar la casilla?", lista);
@@ -96,7 +96,7 @@ public class VistaTextual implements Vista {
     }
 
     public OperacionInmobiliaria elegirOperacion(){
-        ArrayList<String> lista = new ArrayList();
+        ArrayList<String> lista = new ArrayList<>();
         OperacionInmobiliaria operacion;
 
         for(int i = 0; i<OperacionInmobiliaria.values().length; i++){
@@ -116,7 +116,7 @@ public class VistaTextual implements Vista {
     }
 
     public int elegirPropiedad(){
-        ArrayList<String> propiedades = new ArrayList();
+        ArrayList<String> propiedades = new ArrayList<>();
         for(int i = 0; i < juegoModel.getJugadorActual().getPropiedades().size(); i++)
             propiedades.add(i, juegoModel.getJugadorActual().getPropiedades().get(i).toString());
  

@@ -10,7 +10,7 @@ import javax.swing.SwingUtilities;
  *
  * @author Jose Dimas Sánchez Casas y Álvaro R.
  */
-public class TestP5 {
+public class Main {
 
     public static void main(String[] args) throws Exception {
         System.setProperty("apple.awt.application.appearance", "NSAppearanceNameDarkAqua");

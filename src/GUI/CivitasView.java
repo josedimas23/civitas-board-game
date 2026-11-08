@@ -282,7 +282,7 @@ public class CivitasView extends JFrame implements Vista {
     }
 
     @Override
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings({"unchecked", "rawtypes"})
     public int elegirPropiedad() {
         List<CasillaCalle> props = juego.getJugadorActual().getPropiedades();
         Opcion<Integer>[] ops = new Opcion[props.size()];

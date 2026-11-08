@@ -1,5 +1,22 @@
+# Build output
 build/
 dist/
+out/
 *.class
+*.jar
+
+# NetBeans (keep nbproject/ project files, ignore per-user state)
 nbproject/private/
+
+# Other IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
 .DS_Store
+.directory
+Thumbs.db

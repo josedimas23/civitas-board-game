@@ -19,7 +19,7 @@ public class Jugador implements Comparable <Jugador> {
     
     private boolean especulador = false;
     
-    private ArrayList<CasillaCalle> propiedades= new ArrayList();
+    private ArrayList<CasillaCalle> propiedades= new ArrayList<>();
     
     int cantidadCasasHoteles(){
         int edificaciones=0;

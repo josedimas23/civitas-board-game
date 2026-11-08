@@ -22,4 +22,4 @@ rm -rf build/classes
 mkdir -p build/classes
 find src -name '*.java' -print0 | xargs -0 "$JAVA_BIN/javac" -encoding UTF-8 -nowarn -d build/classes
 
-exec "$JAVA_BIN/java" -cp build/classes GUI.TestP5
+exec "$JAVA_BIN/java" -cp build/classes GUI.Main

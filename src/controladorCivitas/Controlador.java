@@ -13,10 +13,10 @@ import GUI.*;
 public class Controlador {
     
     private CivitasJuego juego;
-    private CivitasView vista;
+    private Vista vista;
     
     
-    public Controlador(CivitasJuego juego, CivitasView vista){
+    public Controlador(CivitasJuego juego, Vista vista){
         this.juego = juego;
         this.vista = vista;
     }
