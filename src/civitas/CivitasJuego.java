@@ -170,11 +170,11 @@ public class CivitasJuego {
         tablero.añadeCasilla(new CasillaCalle(" cordoba ", 200, 80, 600));
         tablero.añadeCasilla(new Casilla(" Parking "));
         tablero.añadeCasilla(new CasillaCalle(" sevilla ", 220, 90, 700));
-        tablero.añadeCasilla(new CasillaCalle(" badajod  ", 240, 100, 800));
+        tablero.añadeCasilla(new CasillaCalle(" badajoz ", 240, 100, 800));
         tablero.añadeCasilla(new CasillaCalle(" burgos ", 260, 110, 900));
         tablero.añadeCasilla(new CasillaSorpresa(" Sorpresa ", mazo));
         tablero.añadeCasilla(new CasillaCalle(" avila ", 280, 120, 1000));
-        tablero.añadeCasilla(new CasillaCalle(" vigo .", 300, 130, 1100));
+        tablero.añadeCasilla(new CasillaCalle(" vigo ", 300, 130, 1100));
         tablero.añadeCasilla(new CasillaSorpresa(" Sorpresa ", mazo));
         tablero.añadeCasilla(new CasillaCalle(" barcelona", 350, 140, 1200));
 

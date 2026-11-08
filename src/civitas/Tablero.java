@@ -27,7 +27,7 @@ public class Tablero {
     }
     
     
-    int getNumCasillas(){
+    public int getNumCasillas(){
         return casillas.size();
     }
     

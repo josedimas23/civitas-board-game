@@ -43,11 +43,11 @@ public class CasillaCalle extends Casilla {
     float getPrecioBaseAlquiler(){
         return precioBaseAlquiler;
     }
-    float getPrecioCompra(){
+    public float getPrecioCompra(){
         return precioCompra;
     }
 
-    float getPrecioEdificar(){
+    public float getPrecioEdificar(){
         return precioEdificar;
     }
     
