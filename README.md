@@ -1,3 +1,4 @@
-# Civitas Java
+# Civitas · Juego de tablero
 
-Proyecto de la universidad en Java llamado Civitas. Desarrollado en NetBeans.
+Juego de tablero de gestión inmobiliaria en Java, con arquitectura MVC e interfaz gráfica Swing. Desarrollado con NetBeans.
+
