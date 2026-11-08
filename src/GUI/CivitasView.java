@@ -168,8 +168,10 @@ public class CivitasView extends JFrame implements Vista {
         accionTitulo.setText(titulo);
         accionTexto.setText("<html><div style='width:300px'>" + texto + "</div></html>");
         accionBotones.removeAll();
-        accionBotones.revalidate();
-        accionBotones.repaint();
+        // El título y el texto cambian de tamaño: hay que recalcular el layout de la tarjeta.
+        Container tarjeta = accionTitulo.getParent();
+        tarjeta.revalidate();
+        tarjeta.repaint();
     }
 
     private void enEDT(Runnable r) {
